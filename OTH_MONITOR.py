@@ -41,7 +41,7 @@ def monitor():
                         except:
                             print ('Error Finding Product Image')
                             pass
-                        webhook_url = 'https://discordapp.com/api/webhooks/695274168647680022/PeB-ymh35O_c_OOGZuviz8edcFq8hCu0WYTZcB1qmmSySbc5LiYPJ51p3vmXA1lxdNew'
+                        webhook_url = ''
                         webhook = DiscordWebhook(url=webhook_url)
                         embed = DiscordEmbed(title='{}'.format(raffle_name), url='{}'.format(raffle_link), color=10181046)
                         embed.add_embed_field(name='Region:', value='CA')
